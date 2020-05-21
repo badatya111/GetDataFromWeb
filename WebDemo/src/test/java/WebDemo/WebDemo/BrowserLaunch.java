@@ -132,7 +132,7 @@ public class BrowserLaunch extends Thread{
 		driver=new ChromeDriver(op);
 		driver.get(strUrl);
 		driver.manage().window().maximize();
-		newsData(5922, "stock", "Stock.xlsx");
+		newsData(2, "stock", "Stock.xlsx");
 	}
 
 	public static void main(String[] args) throws EncryptedDocumentException, InvalidFormatException, IOException {
